@@ -1,0 +1,17 @@
+# Environnement virtuel
+.venv/
+
+# Artefacts de compilation
+build/
+*.egg-info/
+dist/
+
+# Fichiers et caches Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Documentation (build Sphinx)
+docs/_build/
+docs/_static/
