@@ -8,7 +8,9 @@ build:
 
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: docs/requirements.txt   # d'abord sphinx + pybind11 (pybind11 requis par setup.py)
+    - method: pip
+      path: .            # puis installe le package cum_mediane
 
 sphinx:
   configuration: docs/conf.py

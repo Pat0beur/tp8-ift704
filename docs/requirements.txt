@@ -1,3 +1,4 @@
 # Dependances pour la doc (utilisees par ReadTheDocs)
 sphinx>=7
 sphinx-rtd-theme
+pybind11>=2.12   # requis par setup.py pour compiler le package que Sphinx importe
